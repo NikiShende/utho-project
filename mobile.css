@@ -1,160 +1,633 @@
-@media screen and (max-width: 768px) {
-    .innerboximg img{
-        visibility: hidden;
-    }
-    .boxinfo {
-        /* margin-left: 0; */
-       width: 80%;
-       /* height: 150vh; */
-       /* background-color: aqua; */
-    }
-    .innerboxinfo h1{
-        height: 150px;
-    }
-    .innerboxinfo p{
-        height: 150px;
-    }
-    .cards {
-        height: 500px;
-    }
-    .maindiv{
-        /* height: 400px; */
-    }
-    .maincontent img{
-        height: 100px;
-
-    }
-    .maincontent2{
-        width: 10%;
-        /* width: 50%; */
-    }
-     .content2{
-        height: 270px;
-     }
-     .content2 h1{
-        height: 100px;
-        text-align: center
-        ;
-     }
-     .boxess{
-        /* flex-wrap: wrap; */
-        height: 850px;
-     }
-     .box1{
-         width: 40vw;
-     }
-     .secondbox{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 30px;
-     }
-     .gif {
-        width: 80%;
-     }
-     .experience{
-        height: 180px;
-     }
-     .experience h1{
-        height: 110px;
-        width: 80%;
-     }
-     .experience p{
-        width: 83%;
-        
-     }
-     .etable{
-        margin-left: 220px;
-     }
-     .etable table{
-        width: 60%;
-        /* margin-left: 80px; */
-        height: 200px;
-     }
-
-     .superfast p{
-        width: 65%;
-        text-align: center;
-        font-size: 20px;
-     }
-     .boximg{
-        height: 40vh;
-     }
-     .boximg img{
-        height: 300px;
-     }
-     .scalable p{
-        text-align: center;
-        font-size: 20px;
-        width: 90%;
-     }
-     .globep{
-        /* height: 600px; */
-
-     }
-     .globe img{
-        height: 400px;
-        width: 700px;
-     }
-     .experience2 h1{
-        /* height: 40px; */
-        width: 90%;
-     }
-     .experience2 p{
-        width: 60%;
-     }
-     .logos{
-        display: flex;
-        margin-left: 120px;
-        justify-content: center;
-        align-items: center;
-     }
-     .logos img{
-        height: 80px;
-     }
-     .realible p{
-        width: 100%;
-        margin-left: 90px;
-     }
-     .animation{
-        width: 100%;
-        margin-left: 80px;
-     }
-     .twobox h1{
-        height: 60px;
-     }
-     .twobox p{
-        height: 100px;
-     }
-     .skill p{
-        width: 80%;
-     }
-     .slidep{
-      height: 100%;
-      width: 100%;
-        margin-left: 130px;
-     }
-     .animationsp{
-        margin-left: 130px;
-     }
-     .questionsp{
-        height: 900px;
-     }
-     .questions1{
-        margin-left: 130px;
+@media screen and (max-width: 560px) {
+   /* .innerboximg img{
+       visibility: hidden;
+   }
    
-     }
-     .questions1 h2{
-        height: 50px;
-        width: 400px;
-     }
+   main{
+      width: 200%;
+   }
+   .cards{
+     padding-bottom: 50px;
+      height: 100%;
+     gap: 30px;
+      width: 200%;
+   }
+   
+    */
+    header{
+      display: none;
+    }
+    .innerboximg img{
+      display: none;
+   }
+   main{
+      width: 200%;
+   }
+   .boxinfo {
+      width: 100%;
+   }
+   .innerboximg{
+      width: 0%;
+   }
+   .innerboxinfo{
+      width: 95%;
+      height: 600px;
+   }
+   .innerboxinfo h1{
+      height: 140px;
+      font-size: 55px;
+   }
+   .innerboxinfo p{
+      height: 150px;
+      font-size: 26px;
+   }
 
+   .box{
+      flex-wrap: wrap;
+   }
+   .box button{
+      width: 100%;
+      height: 70px;
+      font-size: 25px;
+      /* margin-top: 20px; */
+      margin-bottom: 20px;
+   }
+   .box input{
+      width: 100%;
+      height: 70px;
+      font-size: 25px;
+   }
 
-
-
-
+   .cards{
+      height: 1200px;
+      margin-left: 250px;
+      width: 100%;
+      gap: 0px;
+      
+     
+      /* background-color: aquamarine; */
+   }
+   .card{
+      width: 400px;
+      border-radius: 10px;
+      padding-bottom: 50px;
+   }
+   .content{
+      height: 300px;
+      width: 200%;
+   }
+   .content h1{
+      height: 30px;
+      font-size:55px;
+   }
+   .content p{
+      margin-top: 30px;
+      height: 59px;
+      width: 80%;
+      font-size: 39px;
+   }
+   .maindiv{
+      width: 200%;
+      height: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+   .maincontent{
+      width: 100%;
+      gap: 40px;
 
     
+      height: 630px;
+      /* background-color: blue; */
+      
+   }
+   .maincontent img{
+      height: 300px;
+   }
+   .maincontent2{
+      height: 290px;
+
+   }
+
+   .content2{
+      height: 540px;
+      width: 200%;
+      /* background-color: rgb(90, 169, 169); */
+   }
+   .content2 h1{
+      height: 150px;
+      font-size: 65px;
+      text-align: center;
+   }
+   .content2 p{
+      height: 120px;
+      font-size: 45px;
+      width: 100%;
+      /* background-color: cadetblue; */
+   }
+   .boxess{
+      flex-wrap: wrap;
+      gap: 20px;
+      /* background-color: aquamarine; */
+
+      height: 1400px;
+      width: 200%;
+   }
+   .box1{
+         width: 500px;
+         height: 260px;
+       
+   }
+   .box1 img{
+      height: 70px;
+
+
+   }
+   .box1 h1{
+      height: 45px;
+      font-size: 45px;
+      /* background-color: blue; */
+   }
+   .box1 p{
+      height: 40px;
+      font-size: 30px;
+      /* background-color: chartreuse; */
+   }
+   .productsbut{
+      height: 120px;
+      width: 200%;
+      /* background-color: aqua; */
+   }
+   .productsb{
+      height: 90px;
+      width: 260px;
+      font-size: 28px;
+   }
+   .simple{
+      height: 380px;
+      width: 200%;
+      /* background-color: aquamarine; */
+   }
+   .simple h1{
+      height: 90px;
+      font-size: 70px;
+      /* background-color: blue; */
+
+   }
+   .simple p{
+      height: 190px;
+      font-size: 55px;
+      /* background-color: rgb(185, 200, 195); */
+      width: 100%;
+   }
+   .secondbox{
+      width: 200%;
+      height: 250vh;
+      /* background-color: bisque; */
+   }
+   .gif img{
+      height: 560px;
+      /* width: 200%; */
+   }
+   .experience{
+      height: 490px;
+      /* background-color: antiquewhite; */
+   }
+   .experience h1{
+      height: 160px;
+      width: 100%;
+      font-size: 70px;
+   }
+   .experience p{
+      height: 290px;
+      width: 100%;
+      font-size: 48px;
+      /* background-color: rgb(145, 139, 151); */
+   }
+   .etable{
+      width: 100%;
+   }
+
+   .etable table .Utho_range .U{
+      width: 60px;
+      height: 60px;
+      margin-right: 40px;
+      
+
+   }
+   .etable table{
+      height: 400px;
+      width: 90%;
+   }
+   .etable table .Utho_range .cloud{
+     /* background-color: antiquewhite; */
+     margin-left: 190px;
+     
+
+   }
+   
+
+   .etable table .Utho_range p{
+      /* width: 60px; */
+     
+      /* font-size: 20px; */
+    
+      
+
+
+   }
+   .etable table .cloud_1 .Ac_1{
+      height: 50px;
+      width: 120px;
+
 }
+.etable table .cloud_2 .Ac_2{
+   height: 50px;
+   width: 160px;
+   margin-right: 300px;
+
+   }
+   .etable table .cloud_3 .Ac_3{
+      height: 50px;
+      width: 200px;
+      margin-right: 360px;
+   
+      }
+      tr{
+         height: 60px;
+         /* background-color: blue; */
+      }
+      .etable table .cloud .U h4{
+         visibility: hidden;
+      }
+      .superfast{
+         height: 400px;
+         width: 200%;
+
+         /* background-color: aqua; */
+      }
+      .superfast h1{
+         height: 100px;
+         
+         font-size: 80px;
+         /* background-color: beige; */
+      }
+      .superfast p{
+         height: 240px;
+         text-align: center;
+         /* background-color: rgb(227, 216, 216); */
+         font-size: 55px;
+      }
+      .boximg{
+         height: 250vh;
+         flex-wrap: wrap;
+         width: 200%;
+         /* background-color: bisque; */
+      }
+      .boximg img{
+         height: 900px;
+      }
+      .scalable{
+         height: 300px;
+         width: 200%;
+         /* background-color: aquamarine; */
+      }
+      .scalable h1{
+         height: 110px;
+         font-size: 80px;
+         /* background-color: blue; */
+      }
+      .scalable p{
+         height: 170px;
+         font-size: 50px;
+         /* background-color: rgb(185, 200, 195); */
+         width: 100%;
+         text-align: center;
+      }
+      .globep{
+         height: 100vh;
+         
+      }
+      .globe{
+         height: 800px;
+         width: 200%;
+         margin-left: 560px;
+         /* background-color: bisque; */
+      }
+      .globe img{
+         height: 600px;
+      }
+      .experience2{
+         margin-top: 90px;
+         height: 400px;
+         width: 200%;
+         /* background-color: aquamarine; */
+      }
+      .experience2 h6{
+         height: 70px;
+         font-size: 40px;
+         /* background-color: bisque; */
+      }
+      .experience2 h1{
+         height: 100px;
+         width: 100%;
+         font-size: 65px;
+         /* background-color: blueviolet; */
+      }
+      .experience2 p{
+         height: 180px;
+         width: 100%;
+         font-size: 50px;
+         /* background-color: burlywood; */
+      }
+
+      .logos{
+         height: 800px;
+         width: 200%;
+         flex-wrap: wrap;
+
+         /* background-color: aqua; */
+      }
+      .logos img{
+         height: 300px;
+         
+      }
+      .realible{
+         height: 320px;
+         width: 200%;
+         /* background-color: aquamarine; */
+      }
+      .realible h1{
+         height: 110px;
+         font-size: 90px;
+         /* background-color: blue; */
+      }
+      .realible p{
+         height: 170px;
+         font-size: 50px;
+         /* background-color: rgb(185, 200, 195); */
+         width: 100%;
+         text-align: center;
+      }
+      .animation{
+       /* background-color: rgb(177, 177, 199); */
+         height: 1100px;
+         width: 200%;
+         gap: 10px;
+         flex-wrap: wrap;
+      }
+      .twobox{
+         height: 460px;
+         width: 100%;
+         /* background-color: aquamarine; */
+         
+      }
+      .twobox h1{
+         height: 100px;
+         font-size: 70px;
+         text-align: center;
+         /* background-color: blue; */
+      }
+
+      .twobox p{
+
+         height: 160px;
+         font-size:45px;
+         /* background-color: rgb(185, 200, 195); */
+         width: 100%;
+         text-align: left;
+      }
+      .twobox button{
+         margin-left: 20px;
+         margin-top: 40px;
+         height: 80px;
+         font-size: 30px;
+         width: 1000px;
+
+
+      }
+      .innertwobox2{
+         /* background-color: brown; */
+         height: 700px;
+         width: 900px;
+        
+      }
+
+      .skill{
+         height: 700px;
+         width: 200%;
+         /* background-color: aqua; */
+      }
+      .skill img{
+         height: 140px;
+         /* background-color: blueviolet; */
+      }
+      .skill p{
+        height: 210px;
+         font-size: 45px;
+         /* background-color: rgb(185, 200, 195); */
+         width: 100%;
+         text-align: center;
+      }
+      .skill h2{
+         margin-top: 60px;
+         font-size: 40px;
+
+      }
+      .skill h6{
+         height: 120px;
+         font-size: 25px;
+         
+         /* background-color: blue; */
+      }
+      .skilogo img{
+         margin-top: 20px;
+         height: 120px;
+      }
+      .frame{
+         height: 90px;
+         width: 200%;
+         font-size: 35px;
+      }
+      .slidep{
+         margin-left: 240px;
+         height: 900px;
+         width: 100%;
+         flex-wrap: wrap;
+         /* background-color: aqua; */
+      }
+      .slide1{
+         height: 400px;
+         width: 400px;
+         margin-right: 20px;
+         /* background-color: blueviolet; */
+      }
+
+      .featured{
+         height: 100px;
+         width: 200%;
+         /* background-color: aqua; */
+      }
+      .animationsp{
+         margin-top: 90px;
+         height: 400px;
+         width: 200%;
+         /* background-color: burlywood; */
+      }
+      .questionsp{
+         height: 900px;
+         width: 200%;
+
+      }
+      .questions1{
+         height: 70px;
+         width: 80%;
+         
+      }
+      .questions2{
+         height: 70px;
+         width: 80%;
+         
+         
+      }
+      .questions3{
+         height: 70px;
+         width: 80%;
+         
+         
+      }
+
+
+      .questions4{
+         height: 70px;
+         width: 80%;
+         
+         
+      }
+
+
+      .questions5{
+         height: 70px;
+         width: 80%;
+         
+         
+      }
+
+
+      .questions6{
+         height: 70px;
+         width: 80%;
+         
+         
+      }
+
+
+      .questions7{
+         height: 70px;
+         width: 80%;
+         
+         
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .questionsparent{
+
+      }
+      .questions1 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+      .questions2 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+
+
+
+      .questions3 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+
+
+
+      .questions4 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+
+
+
+      .questions5 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+
+
+
+      .questions6 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+      .questions7 h2{
+         text-wrap: nowrap;
+         font-size: 40px;
+         
+      }
+      .questions1 i{
+         margin-right: 40px;
+         
+      }
+      .FooterDiv{
+         height: 1400px;
+         width: 200%;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+} 

@@ -889,6 +889,9 @@ main{
     color: rgb(91, 92, 93);
     /* background-color: rgb(182, 148, 246); */
 }
+
+
+
 .content{
     margin-top: 80px;
     height: 180px;
@@ -965,6 +968,15 @@ main{
     /* background-color: rgb(71, 182, 182); */
 
 }
+
+
+
+
+
+
+
+
+
 .maincontent{
     /* height: 100%; */
     width: 65%;
@@ -1048,6 +1060,8 @@ main{
     font-size: 16px;
     /* background-color: azure; */
 }
+
+
 .productsbut{
     height: 100px;
     display: flex;
@@ -1169,6 +1183,11 @@ main{
     /* background-color: rgba(54, 23, 255, 0.353); */
 }
 
+
+
+
+
+
 .etable{
     display: flex;
     justify-content: center;
@@ -1212,6 +1231,7 @@ main{
 .etable table .Utho_range p {
     font-size: 12px;
     padding-top: 5px;
+    /* background-color: aqua; */
 }
 
 .etable table .Utho_range h4 {
@@ -1368,6 +1388,9 @@ main{
 .boximg img{
     height: 600px;
 }
+
+
+
 .scalable{
     margin-top: 30px;
     height: 120px;
@@ -1471,6 +1494,12 @@ main{
     letter-spacing: 1.1px;
     /* background-color: blanchedalmond; */
 }
+
+
+
+
+
+
 .logos{
     height: 150px;
     display: flex;
@@ -1492,6 +1521,11 @@ main{
     align-self: center;
     /* background-color: aquamarine; */
 }
+
+
+
+
+
 .realible{
     margin-top: 30px;
     height: 120px;
@@ -1517,6 +1551,16 @@ main{
     font-size: 25px;
     color: rgb(68, 68, 70);
 }
+
+
+
+
+
+
+
+
+
+
 .animation{
 
     display: flex;
@@ -1552,7 +1596,7 @@ main{
     height: 40px;
     width: 220px;
     color: white;
-    /* border-color: blue; */
+    border-color: blue;
     font-size: 16px;
     border-radius: 15px;
     background-color: rgb(1, 1, 4);
@@ -1600,6 +1644,11 @@ main{
     height: 30px;
     /* background-color: blueviolet; */
 }
+
+
+
+
+
 
 
 
@@ -1703,7 +1752,7 @@ main{
     gap: 30px;
     justify-content: center;
     align-items: center;
-    /* background-color: beige; */
+    background-color: beige;
 
   }
   .slide1{
@@ -1838,10 +1887,21 @@ main{
     /* background-color: blueviolet; */
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .questionsp{
     height: 600px;
     width: 100%;
-    /* background-color: aqua; */
+     /* background-color: aqua; */
 }
 .questionsparent{
     display: flex;
