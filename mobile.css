@@ -21,10 +21,15 @@
       display: none;
    }
    main{
-      width: 200%;
+      height: 12  0vh;
+      width: 300%;
+      margin-left: 20px;
    }
    .boxinfo {
       width: 100%;
+      height: 95%;
+    
+      /* background-color: aquamarine; */
    }
    .innerboximg{
       width: 0%;
@@ -34,11 +39,12 @@
       height: 600px;
    }
    .innerboxinfo h1{
-      height: 140px;
+      height: 190px;
       font-size: 55px;
+      /* background-color: aqua; */
    }
    .innerboxinfo p{
-      height: 150px;
+      height: 160px;
       font-size: 26px;
    }
 
@@ -60,9 +66,10 @@
 
    .cards{
       height: 1200px;
-      margin-left: 250px;
+      margin-left: 405px;
+     
       width: 100%;
-      gap: 0px;
+      
       
      
       /* background-color: aquamarine; */
@@ -73,8 +80,8 @@
       padding-bottom: 50px;
    }
    .content{
-      height: 300px;
-      width: 200%;
+      height: 600px;
+      width: 300%;
    }
    .content h1{
       height: 30px;
@@ -87,7 +94,7 @@
       font-size: 39px;
    }
    .maindiv{
-      width: 200%;
+      width: 300%;
       height: 1200px;
       display: flex;
       justify-content: center;
@@ -112,17 +119,17 @@
    }
 
    .content2{
-      height: 540px;
-      width: 200%;
+      height: 790px;
+      width: 300%;
       /* background-color: rgb(90, 169, 169); */
    }
    .content2 h1{
-      height: 150px;
+      height: 170px;
       font-size: 65px;
       text-align: center;
    }
    .content2 p{
-      height: 120px;
+      height: 430px;
       font-size: 45px;
       width: 100%;
       /* background-color: cadetblue; */
@@ -133,7 +140,7 @@
       /* background-color: aquamarine; */
 
       height: 1400px;
-      width: 200%;
+      width: 300%;
    }
    .box1{
          width: 500px;
@@ -157,8 +164,8 @@
    }
    .productsbut{
       height: 120px;
-      width: 200%;
-      /* background-color: aqua; */
+      width: 300%;
+      /*       background-color: aqua; */
    }
    .productsb{
       height: 90px;
@@ -167,7 +174,7 @@
    }
    .simple{
       height: 380px;
-      width: 200%;
+      width: 300%;
       /* background-color: aquamarine; */
    }
    .simple h1{
@@ -183,7 +190,7 @@
       width: 100%;
    }
    .secondbox{
-      width: 200%;
+      width: 300%;
       height: 250vh;
       /* background-color: bisque; */
    }
@@ -192,16 +199,16 @@
       /* width: 200%; */
    }
    .experience{
-      height: 490px;
+      height: 720px;
       /* background-color: antiquewhite; */
    }
    .experience h1{
-      height: 160px;
+      height: 250px;
       width: 100%;
       font-size: 70px;
    }
    .experience p{
-      height: 290px;
+      height: 380px;
       width: 100%;
       font-size: 48px;
       /* background-color: rgb(145, 139, 151); */
@@ -262,9 +269,12 @@
       .etable table .cloud .U h4{
          visibility: hidden;
       }
+
+
+
       .superfast{
          height: 400px;
-         width: 200%;
+         width: 300%;
 
          /* background-color: aqua; */
       }
@@ -283,15 +293,15 @@
       .boximg{
          height: 250vh;
          flex-wrap: wrap;
-         width: 200%;
+         width: 300%;
          /* background-color: bisque; */
       }
       .boximg img{
          height: 900px;
       }
       .scalable{
-         height: 300px;
-         width: 200%;
+         height: 410px;
+         width: 300%;
          /* background-color: aquamarine; */
       }
       .scalable h1{
@@ -307,13 +317,13 @@
          text-align: center;
       }
       .globep{
-         height: 100vh;
-         
+         height: 140vh;
+        
       }
       .globe{
          height: 800px;
-         width: 200%;
-         margin-left: 560px;
+         width: 300%;
+         margin-left: 755px;
          /* background-color: bisque; */
       }
       .globe img{
@@ -321,8 +331,8 @@
       }
       .experience2{
          margin-top: 90px;
-         height: 400px;
-         width: 200%;
+         height: 500px;
+         width: 300%;
          /* background-color: aquamarine; */
       }
       .experience2 h6{
@@ -345,7 +355,7 @@
 
       .logos{
          height: 800px;
-         width: 200%;
+         width: 300%;
          flex-wrap: wrap;
 
          /* background-color: aqua; */
@@ -355,8 +365,8 @@
          
       }
       .realible{
-         height: 320px;
-         width: 200%;
+         height: 410px;
+         width: 300%;
          /* background-color: aquamarine; */
       }
       .realible h1{
@@ -373,19 +383,19 @@
       }
       .animation{
        /* background-color: rgb(177, 177, 199); */
-         height: 1100px;
-         width: 200%;
+         height: 1200px;
+         width: 300%;
          gap: 10px;
          flex-wrap: wrap;
       }
       .twobox{
-         height: 460px;
+         height: 570px;
          width: 100%;
          /* background-color: aquamarine; */
          
       }
       .twobox h1{
-         height: 100px;
+         height: 150px;
          font-size: 70px;
          text-align: center;
          /* background-color: blue; */
@@ -393,7 +403,7 @@
 
       .twobox p{
 
-         height: 160px;
+         height: 200px;
          font-size:45px;
          /* background-color: rgb(185, 200, 195); */
          width: 100%;
@@ -416,8 +426,8 @@
       }
 
       .skill{
-         height: 700px;
-         width: 200%;
+         height: 800px;
+         width: 300%;
          /* background-color: aqua; */
       }
       .skill img{
@@ -447,39 +457,62 @@
          height: 120px;
       }
       .frame{
-         height: 90px;
-         width: 200%;
+         height: 170px;
+         width: 300%;
          font-size: 35px;
       }
+
+     swiper-slide{
+      /* margin-left: 400px; */
+     
+      display: flex;
+      
+      background-color: aquamarine;
+      justify-content: center;
+      align-items: center;
+     }
+
       .slidep{
-         margin-left: 240px;
-         height: 900px;
+         /* margin-left: 500px; */
+         height: 1500px;
          width: 100%;
+         display: flex;
+         gap: 30px;
          flex-wrap: wrap;
-         /* background-color: aqua; */
+         display: flex;
+         justify-content: center;
+         align-items: center;
       }
       .slide1{
-         height: 400px;
-         width: 400px;
-         margin-right: 20px;
-         /* background-color: blueviolet; */
+         height: 300px;
+         width: 100%;
       }
+        
+
+
+
 
       .featured{
-         height: 100px;
-         width: 200%;
+         height: 140px;
+         width: 300%;
          /* background-color: aqua; */
       }
       .animationsp{
          margin-top: 90px;
-         height: 400px;
-         width: 200%;
+         height: 500px;
+         width: 300%;
          /* background-color: burlywood; */
       }
       .questionsp{
          height: 900px;
-         width: 200%;
+         width: 300%;
 
+      }
+
+      .questionsparent{
+         height: 1000px;
+         width: 1%00%;
+         /* background-color: burlywood; */
       }
       .questions1{
          height: 70px;
@@ -597,9 +630,34 @@
          margin-right: 40px;
          
       }
+
+
       .FooterDiv{
-         height: 1400px;
-         width: 200%;
+         height: 700px;
+         width: 300%;
+           margin-left: 20px;
+         margin-top: 50px;
+      }
+      .f1{
+         width: 100%;
+
+
+      }
+      .logof img{
+         height: 50px;
+         /* color: white; */
+         background-color: white;
+      }
+      .contentf p{
+         font-size: 25px;
+
+
+      }
+
+
+      .f2{
+         display: none;
+         
       }
 
 

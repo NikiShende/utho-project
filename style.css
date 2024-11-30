@@ -1001,7 +1001,7 @@ main{
 
 
 .boxess{
-    height: 450px;
+    height: 900px;
     width: 100%;
     display: flex;
     gap: 5px;
@@ -1194,6 +1194,7 @@ main{
     align-items: center;
     height: 180px;
     width: 80%;
+    /* background-color: aqua; */
     
 }
 .etable table {
@@ -2120,6 +2121,9 @@ main{
     display: flex;
 
 }
+
+
+
 
 
 
